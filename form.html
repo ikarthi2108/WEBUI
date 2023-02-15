@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        div{
+            background-color: rgb(249, 250, 250) ;
+            background-image: url("assets/signup.jpg");
+            color:rgb(0, 0, 0);
+            width: 700px;
+            border: 5px double black;
+            padding: 90px;
+            margin: 45px;
+    
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body><div>
+    <form action="www.google.com" method="post">
+        <h1>Registration Form</h1>
+        <fieldset>
+            <legend><b>Enter your details</b> </legend>
+            <label><b>Name</b></label><br>
+            <input type="text" name="fname" placeholder="Fullname" required><br><br>
+            <label><b>password</b></label><br>
+            <input type="password" name="password"required><br>
+            <input type="checkbox" value="Remember">  <label>Remember password</label><br><br>
+            <label><b>Email</b</label><br>
+            <input type="email" name="email" required placeholder="xyz@gmail.com"><br><br>
+            <fieldset>
+            <label><b>Gender</b></label><br>
+            <input type="radio" id="Gender" name="Gender" value="Male">Male<br>
+            <input type="radio" id="Gender" name ="Gender" value="Female">Female<br><br>
+            </fieldset>
+            <label><b>Address</b></label><br>
+            <textarea></textarea><br><br>
+            <label><b>Date of Birth</b></label><br>
+            <input type="date" name="Date">select date<br><br>
+            <label><b>Enter your profession :</b></label><br>
+            <select name="profession">
+                <optgroup>
+                    <option>Doctor</option>
+                    <option>Engineer</option>
+                    <option>Cricketer</option>
+                    <option>Tester</option>
+                    <option>Driver</option>
+                    <option>Farmer</option>
+                    <option>weaver</option>
+                    <option>pilot</option>
+                    <option>public worker</option>
+                    <option>Others</option>
+                </optgroup>
+            </select><br><br>
+          <label>Mobile Number</label> <br>
+          <input type="tel" pattern="[0-9]{10}" placeholder="mob.no" required> <br><br>
+          <label>Telephone number</label><br>
+          <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="Tele.no"><br><br>
+          <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    </div>
+
+</body>
+</html>
