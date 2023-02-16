@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAVICON-->
+    <link rel="icon" href="/assets/favicon.png">
+    <title>LAYOUT DEMO</title>
+
+    <style>
+        div.container {
+            width: 100%;
+            border: none;
+            margin: auto;
+            height: 1800px;
+        }
+
+        header,
+        footer {
+            padding: 10px;
+            color: white;
+            background-color: #007196;
+            clear: left;
+            text-align: center;
+        }
+
+        /* HORIZONTAL NAVIGATION */
+        .horinav {
+            background-color: #007196;
+            text-align: center;
+
+        }
+
+        .horinav li {
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .horinav li a {
+            color: aliceblue;
+        }
+
+        /* VERTICAL NAVIGATION */
+        nav {
+            float: left;
+            max-width: 15%;
+            height: inherit;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul a {
+            text-decoration: none;
+        }
+
+        /* ARTICLE */
+        article {
+            float: left;
+            margin-left: 20px;
+            padding: 10px;
+            max-width: 70%;
+            height: inherit;
+        }
+
+        /* ASIDE */
+        aside {
+            margin-top: 100px;
+            margin-left: 10px;
+            float: left;
+            padding: 10px;
+            max-width: 15%;
+            height: inherit;
+        }
+
+        /* NAVIGATE TO PARAGRAPH TAGS IN THE SAME DOCUMENT */
+        #para1 {
+            color: red;
+        }
+
+        #para2 {
+            color: rgb(98, 0, 255);
+        }
+
+        #para3 {
+            color: rgb(4, 120, 43);
+        }
+
+        /* OPACITY & HOVER */
+        img {
+            padding: 10px;
+            width: 170px;
+            height: 170px;
+            margin-left: 15px;
+            opacity: 0.5;
+        }
+
+        img:hover {
+            opacity: 1.0;
+            width: 200px;
+            height: 200px;
+        }
+
+        /* LINKS */
+        /* unvisited link */
+        a:link {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+            color: rgb(5, 102, 55);
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: rgb(249, 9, 225);
+            text-decoration: underline;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+            background-color: lightgreen;
+        }
+    </style>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>2023 TECHSOFT</h1>
+            <ul class="horinav">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </header>
+        <!--FLOAT DEMO-->
+        <nav>
+            <h1>Navigation</h1>
+            <ul>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+                <li><a href="#para1">Selection 1</a></li>
+                <li><a href="#para2">Selection 2</a></li>
+                <li><a href="#para3">Selection 3</a></li>
+
+            </ul>
+        </nav>
+
+        <!--NAVIGATE TO PARA DEMO-->
+        <article>
+            <h1>Article</h1>
+            <p id="para1">
+                <img src="assets/img2.jpg" alt="CSS" style="float: left;">Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Dignissimos, dolor doloribus
+                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
+                esse harum eveniet deleniti?
+                Eos maxime dolorem corporis, corrupti fugit quas ad ipsam, odit aliquid, architecto eaque. Quis,
+                reprehenderit sapiente, dolor aut sed fugit provident, debitis non vel ullam sit voluptatibus illo
+                ducimus magnam?
+                Consequatur recusandae voluptatibus accusamus debitis, sequi placeat unde perspiciatis dolor iure beatae
+                delectus rerum veritatis consectetur odit, vel nobis, cumque facilis ad. Fugit libero tempore dolorum
+                nemo veniam omnis quae.
+                Rerum soluta possimus perferendis iure ullam fuga est tempora corrupti reprehenderit aliquam et eligendi
+                dolore libero, eveniet veritatis laudantium hic dolores veniam dicta minus nam eaque tempore at. Porro,
+                sed?
+                Eaque itaque ex consequatur illo. Sit doloremque mollitia quasi necessitatibus modi quae autem, culpa
+                consequatur, amet dolor magnam laudantium, a excepturi et aliquid reprehenderit eum porro recusandae
+                possimus! At, laboriosam?
+                Vero, ex vel exercitationem quasi quis eaque earum nemo! Dolorem voluptatibus, dicta pariatur alias sint
+                corrupti nisi maxime? Dolorum laudantium nisi quis commodi in deleniti molestias, error nam ipsam
+                eligendi!
+                Neque ullam laudantium sed reiciendis quam voluptas quaerat ipsam, quo facere aut et inventore dolorem
+                quisquam ipsum repellendus, aperiam a. Animi beatae nam nemo debitis est necessitatibus ea quidem
+                impedit!
+                Et vitae voluptates labore sed adipisci neque sit illo doloremque vel maiores quasi fuga, mollitia
+                quibusdam eaque commodi. Pariatur suscipit aut tempora fugit amet ipsum ex dolorem tenetur vitae
+                sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, dolor doloribus
+                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
+                esse harum eveniet deleniti?
+                Eos maxime dolorem corporis, corrupti fugit quas ad ipsam, odit aliquid, architecto eaque. Quis,
+                reprehenderit sapiente, dolor aut sed fugit provident, debitis non vel ullam sit voluptatibus illo
+                ducimus magnam?
+                Consequatur recusandae voluptatibus accusamus debitis, sequi placeat unde perspiciatis dolor iure beatae
+                delectus rerum veritatis consectetur odit, vel nobis, cumque facilis ad. Fugit libero tempore dolorum
+                nemo veniam omnis quae.
+                Rerum soluta possimus perferendis iure ullam fuga est tempora corrupti reprehenderit aliquam et eligendi
+                dolore libero, eveniet veritatis laudantium hic dolores veniam dicta minus nam eaque tempore at. Porro,
+                sed?
+                Eaque itaque ex consequatur illo. Sit doloremque mollitia quasi necessitatibus modi quae autem, culpa
+                consequatur, amet dolor magnam laudantium, a excepturi et aliquid reprehenderit eum porro recusandae
+                possimus! At, laboriosam?
+                Vero, ex vel exercitationem quasi quis eaque earum nemo! Dolorem voluptatibus, dicta pariatur alias sint
+                corrupti nisi maxime? Dolorum laudantium nisi quis commodi in deleniti molestias, error nam ipsam
+                eligendi!
+                Neque ullam laudantium sed reiciendis quam voluptas quaerat ipsam, quo facere aut et inventore dolorem
+                quisquam ipsum repellendus, aperiam a. Animi beatae nam nemo debitis est necessitatibus ea quidem
+                impedit!
+                Et vitae voluptates labore sed adipisci neque sit illo doloremque vel maiores quasi fuga, mollitia
+                quibusdam eaque commodi. Pariatur suscipit aut tempora fugit amet ipsum ex dolorem tenetur vitae
+                sapiente.
+            </p>
+            <p id="para2"><img src="assets/img2.jpg" alt="CSS"
+                    style="padding:10px;width:170px;height:170px;margin-left:15px;float: right;">Lorem ipsum dolor, sit
+                amet
+                consectetur adipisicing elit. Dignissimos, dolor doloribus
+                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
+                esse harum eveniet deleniti?
+                Eos maxime dolorem corporis, corrupti fugit quas ad ipsam, odit aliquid, architecto eaque. Quis,
+                reprehenderit sapiente, dolor aut sed fugit provident, debitis non vel ullam sit voluptatibus illo
+                ducimus magnam?
+                Consequatur recusandae voluptatibus accusamus debitis, sequi placeat unde perspiciatis dolor iure beatae
+                delectus rerum veritatis consectetur odit, vel nobis, cumque facilis ad. Fugit libero tempore dolorum
+                nemo veniam omnis quae.
+                Rerum soluta possimus perferendis iure ullam fuga est tempora corrupti reprehenderit aliquam et eligendi
+                dolore libero, eveniet veritatis laudantium hic dolores veniam dicta minus nam eaque tempore at. Porro,
+                sed?
+                Eaque itaque ex consequatur illo. Sit doloremque mollitia quasi necessitatibus modi quae autem, culpa
+                consequatur, amet dolor magnam laudantium, a excepturi et aliquid reprehenderit eum porro recusandae
+                possimus! At, laboriosam?
+                Vero, ex vel exercitationem quasi quis eaque earum nemo! Dolorem voluptatibus, dicta pariatur alias sint
+                corrupti nisi maxime? Dolorum laudantium nisi quis commodi in deleniti molestias, error nam ipsam
+                eligendi!
+                Neque ullam laudantium sed reiciendis quam voluptas quaerat ipsam, quo facere aut et inventore dolorem
+                quisquam ipsum repellendus, aperiam a. Animi beatae nam nemo debitis est necessitatibus ea quidem
+                impedit!
+                Et vitae voluptates labore sed adipisci neque sit illo doloremque vel maiores quasi fuga, mollitia
+                quibusdam eaque commodi. Pariatur suscipit aut tempora fugit amet ipsum ex dolorem tenetur vitae
+                sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, dolor doloribus
+                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
+                esse harum eveniet deleniti?
+                Eos maxime dolorem corporis, corrupti fugit quas ad ipsam, odit aliquid, architecto eaque. Quis,
+                reprehenderit sapiente, dolor aut sed fugit provident, debitis non vel ullam sit voluptatibus illo
+                ducimus magnam?
+                Consequatur recusandae voluptatibus accusamus debitis, sequi placeat unde perspiciatis dolor iure beatae
+                delectus rerum veritatis consectetur odit, vel nobis, cumque facilis ad. Fugit libero tempore dolorum
+                nemo veniam omnis quae.
+                Rerum soluta possimus perferendis iure ullam fuga est tempora corrupti reprehenderit aliquam et eligendi
+                dolore libero, eveniet veritatis laudantium hic dolores veniam dicta minus nam eaque tempore at. Porro,
+                sed?
+                Eaque itaque ex consequatur illo. Sit doloremque mollitia quasi necessitatibus modi quae autem, culpa
+                consequatur, amet dolor magnam laudantium, a excepturi et aliquid reprehenderit eum porro recusandae
+                possimus! At, laboriosam?
+                Vero, ex vel exercitationem quasi quis eaque earum nemo! Dolorem voluptatibus, dicta pariatur alias sint
+                corrupti nisi maxime? Dolorum laudantium nisi quis commodi in deleniti molestias, error nam ipsam
+                eligendi!
+                Neque ullam laudantium sed reiciendis quam voluptas quaerat ipsam, quo facere aut et inventore dolorem
+                quisquam ipsum repellendus, aperiam a. Animi beatae nam nemo debitis est necessitatibus ea quidem
+                impedit!
+                Et vitae voluptates labore sed adipisci neque sit illo doloremque vel maiores quasi fuga, mollitia
+                quibusdam eaque commodi. Pariatur suscipit aut tempora fugit amet ipsum ex dolorem tenetur vitae
+                sapiente.</p>
+            <p id="para3"><img src="assets/img2.jpg" alt="CSS"
+                    style="padding:10px;width:170px;height:170px;margin-left:15px;float: none;">Lorem ipsum dolor, sit
+                amet
+                consectetur adipisicing elit. Dignissimos, dolor doloribus
+                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
+                esse harum eveniet deleniti?
+                Eos maxime dolorem corporis, corrupti fugit quas ad ipsam, odit aliquid, architecto eaque. Quis,
+                reprehenderit sapiente, dolor aut sed fugit provident, debitis non vel ullam sit voluptatibus illo
+                ducimus magnam?
+                Consequatur recusandae voluptatibus accusamus debitis, sequi placeat unde perspiciatis dolor iure beatae
+                delectus rerum veritatis consectetur odit, vel nobis, cumque facilis ad. Fugit libero tempore dolorum
+                nemo veniam omnis quae.
+                Rerum soluta possimus perferendis iure ullam fuga est tempora corrupti reprehenderit aliquam et eligendi
+                dolore libero, eveniet veritatis laudantium hic dolores veniam dicta minus nam eaque tempore at. Porro,
+                sed?
+                Eaque itaque ex consequatur illo. Sit doloremque mollitia quasi necessitatibus modi quae autem, culpa
+                consequatur, amet dolor magnam laudantium, a excepturi et aliquid reprehenderit eum porro recusandae
+                possimus! At, laboriosam?
+                Vero, ex vel exercitationem quasi quis eaque earum nemo! Dolorem voluptatibus, dicta pariatur alias sint
+                corrupti nisi maxime? Dolorum laudantium nisi quis commodi in deleniti molestias, error nam ipsam
+                eligendi!
+                Neque ullam laudantium sed reiciendis quam voluptas quaerat ipsam, quo facere aut et inventore dolorem
+                quisquam ipsum repellendus, aperiam a. Animi beatae nam nemo debitis est necessitatibus ea quidem
+                impedit!
+                Et vitae voluptates labore sed adipisci neque sit illo doloremque vel maiores quasi fuga, mollitia
+                quibusdam eaque commodi. Pariatur suscipit aut tempora fugit amet ipsum ex dolorem tenetur vitae
+                sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, dolor doloribus
+                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
+                esse harum eveniet deleniti?
+                Eos maxime dolorem corporis, corrupti fugit quas ad ipsam, odit aliquid, architecto eaque. Quis,
+                reprehenderit sapiente, dolor aut sed fugit provident, debitis non vel ullam sit voluptatibus illo
+                ducimus magnam?
+                Consequatur recusandae voluptatibus accusamus debitis, sequi placeat unde perspiciatis dolor iure beatae
+                delectus rerum veritatis consectetur odit, vel nobis, cumque facilis ad. Fugit libero tempore dolorum
+                nemo veniam omnis quae.
+                Rerum soluta possimus perferendis iure ullam fuga est tempora corrupti reprehenderit aliquam et eligendi
+                dolore libero, eveniet veritatis laudantium hic dolores veniam dicta minus nam eaque tempore at. Porro,
+                sed?
+                Eaque itaque ex consequatur illo. Sit doloremque mollitia quasi necessitatibus modi quae autem, culpa
+                consequatur, amet dolor magnam laudantium, a excepturi et aliquid reprehenderit eum porro recusandae
+                possimus! At, laboriosam?
+                Vero, ex vel exercitationem quasi quis eaque earum nemo! Dolorem voluptatibus, dicta pariatur alias sint
+                corrupti nisi maxime? Dolorum laudantium nisi quis commodi in deleniti molestias, error nam ipsam
+                eligendi!
+                Neque ullam laudantium sed reiciendis quam voluptas quaerat ipsam, quo facere aut et inventore dolorem
+                quisquam ipsum repellendus, aperiam a. Animi beatae nam nemo debitis est necessitatibus ea quidem
+                impedit!
+                Et vitae voluptates labore sed adipisci neque sit illo doloremque vel maiores quasi fuga, mollitia
+                quibusdam eaque commodi. Pariatur suscipit aut tempora fugit amet ipsum ex dolorem tenetur vitae
+                sapiente.</p>
+        </article>
+        <aside>
+            <h1>Aside</h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, vero eligendi accusantium
+            adipisci
+            consectetur voluptate. Esse qui ea culpa optio nulla beatae id, placeat animi corrupti atque laudantium
+            harum rerum.
+            <br>
+            <hr>
+            <iframe width="220" height="245" src="https://www.youtube.com/embed/zZ0Z5wSka6c">
+            </iframe>
+
+            <iframe width="220" height="245" src="https://www.youtube.com/embed/Oa9aWdcCC4o"></iframe>
+
+            <hr>
+
+            <iframe width="220" height="245" src="https://www.youtube.com/embed/zZ0Z5wSka6c?autoplay=1&mute=1">
+            </iframe>
+
+            <hr>
+
+            <iframe width="220" height="245"
+                src="https://www.youtube.com/embed/zZ0Z5wSka6c,tgbNymZ7vqY?playlist=zZ0Z5wSka6c,tgbNymZ7vqY&loop=1">
+            </iframe>
+        </aside>
+        <footer>&copy; www.2023techsoft.com </footer>
+    </div>
+
+</body>
+
+</html>

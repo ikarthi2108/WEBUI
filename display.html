@@ -22,6 +22,13 @@
             clear: left;
             text-align: center;
         }
+        footer{
+            padding: 10px;
+            color: white;
+            background-color: #070707;
+            clear: left;
+            text-align: center;
+        }
        .horinav{
         background-color: #0a0a0a;
         text-align: center;
@@ -39,7 +46,7 @@
         /* VERTICAL NAVIGATION */
         nav {
             float: left;
-            max-width: 15%;
+            max-width: 13%;
             height: inherit;
             padding: 10px;
             border-style: groove;
@@ -53,6 +60,47 @@
         nav ul a {
             text-decoration: none;
         }
+         /* ARTICLE */
+         article {
+            float: left;
+            margin-left: 20px;
+            padding: 10px;
+            max-width: 55%;
+            height: inherit;
+        }
+        #logo{
+            width: 70px;
+            margin-right: 30px;
+        }
+        aside {
+            margin-top: 100px;
+            margin-left: 10px;
+            float: left;
+            padding: 10px;
+            height: inherit;
+        }
+        a:link {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+            color: rgb(5, 102, 55);
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: rgb(74, 17, 230);
+            text-decoration: underline;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+            background-color: lightgreen;
+        }
+        
     </style>
         
         
@@ -60,7 +108,7 @@
 <body>
     <div class="Education">
         <header>
-            <img src="assets/iconEDu.jfif" style="float: left;"><br><br><br><br><br>
+            <img src="assets/icon original.png" style="float: left;"><br><br><br><br><br>
             <h1>EDUcom</h1>
             <ul class="horinav">
                 <li><a href="" style="margin ">About us</a></li>
@@ -68,12 +116,13 @@
                 <li><a href="">signin</a></li>
                 <li><a href="">signout</a></li>
             </ul>
+            <marquee>welcome to EDUcom.com || Build your future here</a></marquee>
         </header>
         <nav>
             <h1>Select your class</h1>
             <ul>
                 <li><a href="#class1">Grade1</a></li>
-                <li><a href="class2">Grade2</a></li>
+                <li><a href="#class2">Grade2</a></li>
                 <li><a href="#class3">Grade3</a></li>
                 <li><a href="#class4">Grade4</a></li>
                 <li><a href="#class5">Grade5</a></li>
@@ -85,7 +134,7 @@
                 <li><a href="#class11">Grade11</a></li>
                 <li><a href="#class12">Grade12</a></li>
                 <br><br><br><br>
-            <h1>Subjects </h1>
+            <h1>Subjects Available </h1>
                 <li><a href="#Tamil">Tamil</a></li>
                 <li><a href="#English">English</a></li>
                 <li><a href="#Mat">Mathematics</a></li>
@@ -99,17 +148,254 @@
                 <li><a href="#Acc">Accountancy</a></li>
                 <li><a href="#Eco">Economics</a></li>
                <br><br>
-               
+               <h1>Board Exam Question papers(year wise)</h1>
+                <li><a href="#2010">2010(ClassX All)</a><br>
+                <li><a href="#2010">2010(ClassXII All)</a></li>
+                <li><a href="#Mat">2011(ClassX All)</a></li>
+                <li><a href="#Sci">2011(ClassXII All)</a></li>
+                <li><a href="#SS">2012(ClassX All)</a></li>
+                <li><a href="#phy">2012(ClassXII All)</a></li>
+                <li><a href="#Chem">2013(ClassX All)</a></li>
+                <li><a href="#CS">2013(ClassXII All)</a></li>
+                <li><a href="#Bio">2014(ClassX All)</a></li>
+                <li><a href="#Com">2014(ClassXII All)</a></li>
+                <li><a href="#Acc">2015(ClassX All)</a></li>
+                <li><a href="#Eco">2015(ClassXII All)</a></li>
+               <br><br>
+                <h1>Offline class Assistance(Location wise)</h1>
+                <li><a href="mailto:abc@gmail.com">Coimbatore</a><br>
+                <li><a href="mailto:abc@gmail.com">chennai</a></li>
+                <li><a href="#Mat">Madurai</a></li>
+                <li><a href="#Sci">Tiruppur</a></li>
+                <li><a href="#SS">Namakkal</a></li>
+                <li><a href="#phy">Theni</a></li>
+                <li><a href="#Chem">Pondichery</a></li>
+                <li><a href="#CS">Erore</a></li>
+                <li><a href="#Bio">Vellore</a></li>
+                <li><a href="#Com">Kanyakumari</a></li>
+                <li><a href="#Acc">Thanjavur</a></li>
+                <li><a href="#Eco">Sivagangai</a></li>
+                <li><a href="#CS">Banglore</a></li>
+                <li><a href="#Bio">Cochin</a></li>
+                <li><a href="#Com">Hosur</a></li>
+                <li><a href="#Acc">Karur</a></li>
+                <li><a href="#Eco">Others</a></li>
+                <br><br>
+                <h1>Follow us on</h1>
+                <li><a href="@kk_22">Linkedin</a><br>
+                <li><a href="mailto:abc@gmail.com">Skype</a></li>
+                <li><a href="#Mat">Instagram</a></li>
+                <li><a href="#Sci">Twitter</a></li>
+                <li><a href="#SS">whatsapp</a></li>
+                <li><a href="#phy">Facebook</a></li>
+                <li><a href="mailto:abc@gmail.com">Gmail</a></li>
             </ul>
+            
         </nav>
         <article>
             <h1>Class 1</h1>
             <p id="class1">
-                <img src="assets/iconEDu.jfif" alt="CSS" style="float: left;">Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Dignissimos, dolor doloribus
-                accusamus asperiores in suscipit magni est et saepe nostrum ab molestiae nihil qui. Praesentium rerum
-              
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
             </p>
+            <h1>Class II</h1>
+            <p id="class2">
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class III</h1>
+            <p id="class3">
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class IV</h1>
+            <p id="class4">
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class V</h1>
+            <p id="class5">
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class VI</h1>
+            <p id="class6">
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+           <h1>Class VI</h1>
+           <p id="class6">
+            <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+            In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+            With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+            <a href="https://byjus.com/class-1/">click here for more</a>
+                
+            
+
+             </p>
+            <h1>Class VI</h1>
+            <p id="class6">
+            <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+            In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+            With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+            <a href="https://byjus.com/class-1/">click here for more</a>
+                
+        
+
+            </p>
+
+            <h1>Class VI</h1>
+            <p id="class6">
+                <img id=logo src="assets/class1.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+
+            <h1>Class VII</h1>
+            <p id="class7">
+                <img id=logo src="assets/Class 7.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+                
+                
+
+            </p>   
+            <h1>Class VIII</h1>
+            <p id="class8">
+                <img id=logo src="assets/Class 8.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class IX</h1>
+            <p id="class9">
+                <img id=logo src="assets/Class 9.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class X</h1>
+            <p id="class10">
+                <img id=logo src="assets/Class 10.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class XI</h1>
+            <p id="class11">
+                <img id=logo src="assets/Class 11.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+                
+                
+
+            </p>
+            <h1>Class XII</h1>
+            <p id="class12">
+                <img id=logo src="assets/class12.png" alt="CSS" style="float: left;">
+                In this page, each and every question originate with a step-wise solution. Working on NCERT Solutions for Class 1 will help students to get an idea about how to solve the problems.
+                With the help of these NCERT Solutions for Class 1 Maths, Hindi and English you can easily grasp basic concepts better and faster. 
+                <a href="https://byjus.com/class-1/">click here for more</a>
+
+                </p>
+        </article>
+        <aside>
+            <h1>Our Class Videos</h1>
+            <br>
+            <hr>
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/Vm8rOyaFu4M" title="Class - 10th, Ex - 1.1, Q 2 (Real Numbers) NCERT CBSE" frameborder="0" allow="accelerometer; autoplay;
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+             <iframe width="250" height="245" src="https://www.youtube.com/embed/753qn588P1o" title="Attempting to Solve the RUBIK&#39;S CUBE (With NO Help)" frameborder="0" allow="accelerometer; autoplay; 
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <hr>
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/nBN3p1qC6no" title="REAL NUMBERS in 30 Minutes || Mind Map Series for Class 10th" frameborder="0" allow="accelerometer; autoplay;
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+             <iframe width="250" height="245" src="https://www.youtube.com/embed/r0TMpzGSoAE" title="Power Up! Harnessing Winds with Abhinav Gupta | Ep. 17 Promo | BYJU’S XCEL Masterclasses" frameborder="0" allow="accelerometer; autoplay;
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <hr>
+
+
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/bROWtHO8FM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           
+             <iframe width="250" height="245" src="https://www.youtube.com/embed/aun8fica7tw" title="Class - 10th, Ex - 1.1, Q 1 (Real Numbers) NCERT CBSE" frameborder="0" allow="accelerometer; autoplay; 
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <hr>
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/k_MzQjLA9fA" title="Trigonometry Basics" frameborder="0" allow="accelerometer; autoplay;
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+             <iframe width="250" height="245" src="https://www.youtube.com/embed/QmDhai2fKzk" title="Applications of Trigonometry Class 10" frameborder="0" allow="accelerometer; autoplay;
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <hr>
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/I7TFYa1v9xI" title="How To Calculate Square Roots In Your Head" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/X_ZJc9_n7TY" title="How to Calculate Faster than a Calculator - Mental Maths #1" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <hr>
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/nT0XpXS_wz8" title="Learn to Square any 2 digit number I  Math Tricks and Tips" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="250" height="245" src="https://www.youtube.com/embed/sEQB0_3nvCA" title="Why does the moon change shape - Moon Day Special by BYJU&#39;S" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </aside>
+        <footer>&copy; www.Educom2023.com </footer>
+            
+            
     </div>
 </body>
 </html>
